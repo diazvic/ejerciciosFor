@@ -26,11 +26,9 @@ const numeros = [
 mostrarNumeros = (numeros) => {
 	for (let i = 0; i < numeros.length; i++) {
 		const numeroActual = numeros[i];
-		console.log(numeroActual);
 		for (let j = 0; j < numeroActual.length; j++) {
-			console.log(numeroActual[j]);
-			if (numeroActual > 10) {
-				console.log(numeroActual);
+			if (numeroActual[j] > 10) {
+				console.log(numeroActual[j]);
 			}
 		}
 	}
