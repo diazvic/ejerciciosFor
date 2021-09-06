@@ -36,3 +36,18 @@
 // 	}
 // };
 // mostrarNumeros(numeros);
+const numeros = [
+	["1", "6", "17", "21", "3"],
+	["4", "1", "90", "8", "78"],
+];
+mostrarNumeros = (numeros) => {
+	for (let i = 0; i < numeros.length; i++) {
+		const numeroActual = numeros[i];
+		for (let j = 0; j < numeroActual.length; j++) {
+			if (numeroActual[j] > 10) {
+				console.log(numeroActual[j]);
+			}
+		}
+	}
+};
+mostrarNumeros(numeros);
