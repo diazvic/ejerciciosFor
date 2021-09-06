@@ -19,20 +19,20 @@
 
 //Mostrar en consola 2 Dado un array bidimensional, compuesto de dos arrays con 5 numeros cada uno, mostrar en consola solo los numeros mayores a 10.
 
-const numeros = [
-	["1", "6", "17", "21", "3"],
-	["4", "1", "90", "8", "78"],
-];
-mostrarNumeros = (numeros) => {
-	for (let i = 0; i < numeros.length; i++) {
-		const numeroActual = numeros[i];
-		console.log(numeroActual);
-		for (let j = 0; j < numeroActual.length; j++) {
-			console.log(numeroActual[j]);
-			if (numeroActual > 10) {
-				console.log(numeroActual);
-			}
-		}
-	}
-};
-mostrarNumeros(numeros);
+// const numeros = [
+// 	["1", "6", "17", "21", "3"],
+// 	["4", "1", "90", "8", "78"],
+// ];
+// mostrarNumeros = (numeros) => {
+// 	for (let i = 0; i < numeros.length; i++) {
+// 		const numeroActual = numeros[i];
+// 		console.log(numeroActual);
+// 		for (let j = 0; j < numeroActual.length; j++) {
+// 			console.log(numeroActual[j]);
+// 			if (numeroActual > 10) {
+// 				console.log(numeroActual);
+// 			}
+// 		}
+// 	}
+// };
+// mostrarNumeros(numeros);
